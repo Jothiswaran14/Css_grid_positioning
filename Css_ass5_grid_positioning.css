@@ -4,7 +4,7 @@ body{margin: 0;}
     text-align: center; position: fixed;}
 .header img{width: 100%; padding-bottom: 40px;}
 .header1 img{width: 100%;} .header1 .main_menu{background-color: #474343a8; display: flex;justify-content: center;}
-.main_menu a{text-decoration: none; color: #ffffffaf; padding: 20px 10px 10px 20px ;background-color: #000000;}
+.main_menu a{text-decoration: none; color: #ffffffaf; padding: 20px 10px 10px 20px ;background-color: #000000;text-align: center;}
 .menu{ background-color: #000000a8;} 
 .menu a{text-decoration: none; color: #ffffffaf; font-size: 1.3em;padding:15px; display: block; margin-bottom: 3px;}
 .menu1{border-left: solid 7px red;} .menu1:hover{color: red;}
