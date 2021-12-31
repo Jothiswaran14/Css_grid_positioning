@@ -1,6 +1,16 @@
-@media only screen and (min-width: 300px) and (max-width: 560px){
+@media only screen and (max-width: 800px){
+    .header{ display: none;} .image_1{margin: 0;min-height: 500px;} .image_2{width: 100%;}
+    .Container{margin: 0 !important; padding: 1.5em 3em;} .image_container{grid-template-columns: 40% 40%!important;}
+    .content {grid-template-columns: 100% !important;} .skills{grid-template-columns: 100% !important;}
+    .tools{grid-template-columns: 40% 40% !important; justify-content: space-around;} .details{grid-template-columns: 90% !important;}
+    .Container_3 {grid-template-columns: 60% 35%;}
+    .details div{margin-bottom: 30px;} .footer{margin: 0 !important;}
+}
+@media only screen and (min-width: 800px){.header1{ display: none;}}
+@media only screen and (max-width: 450px){
     .header{ display: none;} .image_1{margin: 0;min-height: 600px;}
     .Container{margin: 0 !important; padding: 1.5em 3em;} .image_container{grid-template-columns: 80% !important;}
+    .main_menu a{font-size: 15px;}
     .content {grid-template-columns: 100% !important;} .skills{grid-template-columns: 100% !important;}
     .tools{grid-template-columns: 100% !important;} .details{grid-template-columns: 90% !important;}
     .Container_3 {grid-template-columns: 100%;}
