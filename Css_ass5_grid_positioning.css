@@ -1,0 +1,33 @@
+*{box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0;}
+.header{background-color: #777070c5;padding: 40px 0 0 0; width: 20%; height: 300vh; 
+    text-align: center; position: fixed;}
+.header img{width: 100%; padding-bottom: 40px;} 
+.menu{ background-color: #000000a8;} 
+.menu a{text-decoration: none; color: #ffffffaf; font-size: 1.3em;padding:15px; display: block; margin-bottom: 3px;}
+.menu1{border-left: solid 7px red;} .menu1:hover{color: red;}
+.about{border-left: solid 7px #00b7ff;} .about:hover{color: #00b7ff;}
+.services{border-left: solid 7px #ff00ff;} .services:hover{color: #ff00ff;}
+.portfilio{border-left: solid 7px #fffb00;} .portfilio:hover{color: #fffb00;}
+.contact{border-left: solid 7px #1daa40;} .contact:hover{color: #1daa40;}
+.image_1{background:linear-gradient(rgba(0, 0, 0, 0.322) , rgba(0, 0, 0, 0.384)), url(https://flomicgroup.com/images/slider-main/slide.jpg);
+    background-size: cover; height: 445px; margin-left: 20.25%;}
+.image_1 .image_2{width: 65%;margin: 0 100px 0 100px;position: absolute;}
+.image_1 .main{ color: rgba(255, 253, 253, 0.849); font-size: 1.2rem; text-align: center; text-transform: uppercase;}
+.image_1 h1{ color: aliceblue; font-size: 3em; text-align: center; font-weight: bolder; padding-top: 90px;}
+.image_2 button{background-color: #2a7ae2ee; padding: 5px;color: white;}
+.main div{ padding-top: 70px;} .clear{clear: both;}
+.Container{padding: 2em 5em;}
+.Container_1 p{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:medium;color: #6a6b6ee7;}
+.Container_2 .image_container{display: grid; grid-template-columns: 32% 32% 32%; justify-content: center;}
+.image_container img{width: 100%; height: 200px;} .image_container p{color: #7a7676;}
+.image_container div{margin: 10px; text-transform: uppercase; font-size: small; 
+    color:#5bcbda; border-bottom: solid 5px #5bcbda;padding-top: 20px;}
+.Container_3{display: grid; grid-template-columns: 70% 30%;}
+.Container_3 p{font-size: 0.8em; text-align: justify; color: #524e4e; padding: 10px;}
+.Container_3 img{width: 100%; height: 200px; margin-left: 10px; margin-top: 55px;}
+.content{display: grid;grid-template-columns: 25% 25% 25%;justify-content: space-around;margin:50px 0 40px 0;}
+.Services .content1{background-color: #d65bda; font-size: 1.2em; color: white; padding: 10px; text-align: left; display: grid; grid-template-columns: auto auto;}
+.Services .content1 i{margin: auto;} .Services .content1 p{padding-left: 20px;}
+.tools div img{width: 100%; height: 200px;} .tools div{padding-top: 20px; border-bottom: solid 5px #7cf718; margin-left: 20px;}
+.footer div a{padding-left: 20px;}
